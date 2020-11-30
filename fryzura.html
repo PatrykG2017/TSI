@@ -2,31 +2,34 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Patryk Gorczyca">
-    <link rel="stylesheet" href="css/styl.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styl2.css">
     <script src="script.js"></script>
     <title>Usługi fryzjerskie</title>
 </head>
 <body>
     <div>
-        <main>
-        <!-- b1 -->
+    <main>
+    <!-- b1 -->
         <nav> 
             <a href="index.html"><h2>SALON FRYZJERSKI</h2></a>
             <img src="obraz2.jpg" alt="Czesanie">
         </nav>
-        <!-- b2 -->
+    <!-- b2 -->
         <section>
-        <h5>Kontakt: 111 222 333</h5>
-        <p>Witaj! Miło nam, że odwiedziłeś nasz salon.
-            <br>
-            Zapoznaj się  ofertą i sprawdź promocje!
-        </p>
+        <form action="#">
+           <h3>Dziś promocja na strzyżenie włosów</h3>
+            <label for="krotkie"><input type="radio" name="strzyzenie" id="krotkie" value="25">Krótkie</label>
+            <label for="srednie"><input type="radio" name="strzyzenie" id="srednie" value="30">Średnie</label>
+            <label for="poldlugie"><input type="radio" name="strzyzenie" id="poldlugie" value="40">Półdługie</label>
+            <label for="dlugie"><input type="radio" name="strzyzenie" id="dlugie" value="50">Długie</label>
+            <input type="submit" value="Odkryj promocję" id="button">
+            <p id="wynik"></p>
+        </form>
         </section>
+    </main>
 
-        </main>
-        
-        <aside>
+    <aside>
         <!-- b1 -->
         <section class="Rblok1">
            <h2>MENU</h2>
@@ -52,9 +55,9 @@
         </section>
 
     </aside>
-        <footer>
-            <p>Autor: Patryk Gorczyca 4D</p>
-        </footer>
+    <footer>
+        <p>Autor: Patryk Gorczyca 4D</p>
+    </footer>
 </div>
 </body>
 </html>
