@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Patryk Gorczyca">
-    <link rel="stylesheet" href="css/styl2.css">
+    <link rel="stylesheet" href="css/styl.css">
     <script src="script.js"></script>
     <title>Usługi fryzjerskie</title>
 </head>
@@ -17,7 +17,13 @@
         </nav>
     <!-- b2 -->
         <section>
-
+            <h3>Dziś promocja na strzyżenie włosów</h3>
+            <label for="krotkie"><input type="radio" name="strzyzenie" id="krotkie" value="25">Krótkie</label>
+            <label for="srednie"><input type="radio" name="strzyzenie" id="srednie" value="30">Średnie</label>
+            <label for="poldlugie"><input type="radio" name="strzyzenie" id="poldlugie" value="40">Półdługie</label>
+            <label for="dlugie"><input type="radio" name="strzyzenie" id="dlugie" value="50">Długie</label>
+            <input type="submit" value="Odkryj promocję" id="button">
+            <p id="wynik"></p>
         </section>
     </main>
 
