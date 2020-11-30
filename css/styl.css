@@ -9,3 +9,55 @@ div{
     flex-wrap: wrap;
     width: 100%;
 }
+main{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+main nav {
+    height: 400px;
+    background-color: snow;
+    text-align: center;
+}
+main section{
+    height: 400px;
+    background-color: snow;
+    font-size: 150%;
+}
+aside{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.Rblok1{
+    height: 150px;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+.Rblok2{
+    height: 350px;
+    background-color: steelblue;
+    color: white;
+}
+.Rblok3{
+    height: 300px;
+    background-color:snow;
+    text-align: center;
+}
+footer{
+    flex-basis: 100%;
+    background-color: steelblue;
+    color:white;
+}
+h2{
+    font-size: 250%;
+}
+
+img{
+    padding: 4px;
+}
+img:hover{
+    padding: 3px;
+    border: 1px solid steelblue;
+}
